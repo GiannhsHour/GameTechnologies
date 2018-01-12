@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C4DEACDB-D3BF-44F9-8968-69A2F0597D10}"
+	ProjectSection(SolutionItems) = preProject
+		..\CHANGELIST.txt = ..\CHANGELIST.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ncltech", "ncltech\ncltech.vcxproj", "{AB4196E5-2488-4514-B4C2-00EAFC468A1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F} = {98D6B51B-CB0A-4389-ADC6-24082B967C3F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameTech Coursework", "GameTech Coursework\GameTech Coursework.vcxproj", "{1A5C2647-CADD-49B7-861E-4B1339EDCD84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F} = {98D6B51B-CB0A-4389-ADC6-24082B967C3F}
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D} = {AB4196E5-2488-4514-B4C2-00EAFC468A1D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nclgl", "nclgl\nclgl.vcxproj", "{98D6B51B-CB0A-4389-ADC6-24082B967C3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{7D7B3356-FDB3-4FEB-A2EE-BA2F8D8AE6CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Examples_Cuda", "Examples_Cuda\Examples_Cuda.vcxproj", "{FF74C3EC-6B06-4054-8829-81E6866DF745}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F} = {98D6B51B-CB0A-4389-ADC6-24082B967C3F}
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D} = {AB4196E5-2488-4514-B4C2-00EAFC468A1D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientCoursework", "ClientCoursework\ClientCoursework.vcxproj", "{B0E0AAEC-0469-40C2-A077-33153D4F3D80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerCoursework", "ServerCoursework\ServerCoursework.vcxproj", "{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Debug|x64.ActiveCfg = Debug|x64
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Debug|x64.Build.0 = Debug|x64
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Debug|x86.Build.0 = Debug|Win32
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Release|x64.ActiveCfg = Release|x64
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Release|x64.Build.0 = Release|x64
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Release|x86.ActiveCfg = Release|Win32
+		{AB4196E5-2488-4514-B4C2-00EAFC468A1D}.Release|x86.Build.0 = Release|Win32
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Debug|x64.ActiveCfg = Debug|x64
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Debug|x64.Build.0 = Debug|x64
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Debug|x86.ActiveCfg = Debug|Win32
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Debug|x86.Build.0 = Debug|Win32
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Release|x64.ActiveCfg = Release|x64
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Release|x64.Build.0 = Release|x64
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Release|x86.ActiveCfg = Release|Win32
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84}.Release|x86.Build.0 = Release|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|x64.ActiveCfg = Debug|x64
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|x64.Build.0 = Debug|x64
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Debug|x86.Build.0 = Debug|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|x64.ActiveCfg = Release|x64
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|x64.Build.0 = Release|x64
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|x86.ActiveCfg = Release|Win32
+		{98D6B51B-CB0A-4389-ADC6-24082B967C3F}.Release|x86.Build.0 = Release|Win32
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Debug|x64.ActiveCfg = Debug|x64
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Debug|x64.Build.0 = Debug|x64
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Debug|x86.ActiveCfg = Debug|Win32
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Debug|x86.Build.0 = Debug|Win32
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Release|x64.ActiveCfg = Release|x64
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Release|x64.Build.0 = Release|x64
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Release|x86.ActiveCfg = Release|Win32
+		{FF74C3EC-6B06-4054-8829-81E6866DF745}.Release|x86.Build.0 = Release|Win32
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Debug|x64.ActiveCfg = Debug|x64
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Debug|x64.Build.0 = Debug|x64
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Debug|x86.Build.0 = Debug|Win32
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Release|x64.ActiveCfg = Release|x64
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Release|x64.Build.0 = Release|x64
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Release|x86.ActiveCfg = Release|Win32
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80}.Release|x86.Build.0 = Release|Win32
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Debug|x64.ActiveCfg = Debug|x64
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Debug|x64.Build.0 = Debug|x64
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Debug|x86.Build.0 = Debug|Win32
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Release|x64.ActiveCfg = Release|x64
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Release|x64.Build.0 = Release|x64
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Release|x86.ActiveCfg = Release|Win32
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A5C2647-CADD-49B7-861E-4B1339EDCD84} = {7D7B3356-FDB3-4FEB-A2EE-BA2F8D8AE6CF}
+		{FF74C3EC-6B06-4054-8829-81E6866DF745} = {7D7B3356-FDB3-4FEB-A2EE-BA2F8D8AE6CF}
+		{B0E0AAEC-0469-40C2-A077-33153D4F3D80} = {7D7B3356-FDB3-4FEB-A2EE-BA2F8D8AE6CF}
+		{3E6CB3D3-EC5E-463E-9BFD-DBF6D947D8E0} = {7D7B3356-FDB3-4FEB-A2EE-BA2F8D8AE6CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C45CAA64-8963-4BFB-874B-26F9911FB007}
+	EndGlobalSection
+EndGlobal
